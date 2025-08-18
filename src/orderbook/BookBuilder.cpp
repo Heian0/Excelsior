@@ -3,7 +3,8 @@
 #include <iostream>
 #include "../utils/SpmcRingBuffer.cpp"
 #include "../../include/parser/ItchParser.hpp"
-#include "Orderbook.cpp"
+
+class Orderbook;
 
 class BookBuilder {
 public:
